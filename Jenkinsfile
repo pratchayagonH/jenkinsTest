@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build and push') {
             steps {
-                sh 'npm --version'
+                sh 'mkdir test'
             }
         }
     }
